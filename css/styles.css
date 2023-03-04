@@ -1,45 +1,68 @@
-.first-container {
-    text-align: center;
-}
-
 body {
-    background-color: #A0C3D2;
+    background-color: #EAC7C7;
     margin: 0;
     text-align: center;
     position: relative;
+    font-family: 'coming soon';
+}
+.first-container {
+    text-align: center;
+    background-color: #A0C3D2;
     padding-top: 5%;
-    font-family: coming soon;
 }
 
-h1 {
-    width: 25%;
-    margin: 5% auto;
-    font-family: sacramento;
-    font-size: 55px;
-}
-h2{
-    font-family: sacramento;
-    font-size: 40px;
-}
-
-
-p{
-    width: 25%;
-    margin: 5% auto;
-    font-size: 20px;
-}
 .mrak1 {
     position: absolute;
     top: 7%;
-    right: 25%;
+    right: 20%;
 
 }
+
 .mrak2 {
     position: absolute;
-    top: 30%;
+    top: 10%;
     left: 20%;
 }
 
 .hora {
     bottom: 0;
+}
+hr{
+    margin: 0;
+}
+h1 {
+    width: 50%;
+    padding-top: 50px;
+    margin: 5% auto 0 auto;
+    font-family: 'sacramento';
+    font-size: 6rem;
+}
+
+h2 {
+    font-family: 'sacramento';
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'tilt neon';
+    font-size: 2rem;
+}
+
+.profile img {
+    height: 200px;
+    border-radius: 20%;
+    margin-top: 30px;
+}
+
+.skill-row img {
+    height: 150px;
+}
+
+
+.middle-container {
+margin: 10%;
+}
+
+.bottom-container {
+    margin: 10%;
 }
