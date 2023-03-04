@@ -8,28 +8,36 @@ body {
     text-align: center;
     position: relative;
     padding-top: 5%;
+    font-family: coming soon;
 }
 
 h1 {
-    width: 10%;
+    width: 25%;
     margin: 5% auto;
+    font-family: sacramento;
+    font-size: 55px;
+}
+h2{
+    font-family: sacramento;
+    font-size: 40px;
 }
 
 
 p{
-    width: 15%;
+    width: 25%;
     margin: 5% auto;
+    font-size: 20px;
 }
 .mrak1 {
     position: absolute;
     top: 7%;
-    right: 30%
+    right: 25%;
 
 }
 .mrak2 {
     position: absolute;
     top: 30%;
-    left: 25%;
+    left: 20%;
 }
 
 .hora {
