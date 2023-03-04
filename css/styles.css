@@ -3,8 +3,10 @@ body {
     margin: 0;
     text-align: center;
     position: relative;
-    font-family: 'coming soon';
+    font-family: 'Noto Serif', serif;
+    line-height: 2;
 }
+
 .first-container {
     text-align: center;
     background-color: #A0C3D2;
@@ -25,27 +27,54 @@ body {
 }
 
 .hora {
-    bottom: 0;
+    position: relative;
+    top: 10px;
+margin-bottom: 0;
+padding-bottom: 0;
 }
-hr{
+
+hr {
     margin: 0;
 }
+
 h1 {
     width: 50%;
     padding-top: 50px;
     margin: 5% auto 0 auto;
-    font-family: 'sacramento';
+    font-family: 'Sacramento', cursive;
     font-size: 6rem;
+    color: #EAE0DA;
 }
 
 h2 {
-    font-family: 'sacramento';
-    font-size: 2.5rem;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    color: #EAE0DA;
 }
 
 h3 {
-    font-family: 'tilt neon';
-    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #F7F5EB;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: #EAC7C7;
+}
+
+a {
+    color: #11999e;
+}
+
+.profile {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    font-size: large;
 }
 
 .profile img {
@@ -54,15 +83,80 @@ h3 {
     margin-top: 30px;
 }
 
-.skill-row img {
-    height: 150px;
+
+
+.skill-row {
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-size: large;
 }
 
+.skill1 {
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
 
-.middle-container {
-margin: 10%;
+.skill2 {
+    height: 150px;
+    float: right;
+    margin-left: 30px;
+
 }
 
 .bottom-container {
-    margin: 10%;
+    margin: 0;
+    background-color: #A0C3D2;
+    padding: 50px 0;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+.rozdelovac {
+    border-style: none;
+    border-top: 15px dotted #A0C3D2;
+    width: 15%;
+    margin: 60px auto 60px auto;
+}
+
+.copyright {
+    margin: 30px 0 0 0;
+    color: white;
+}
+
+.footer-link {
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: #EAC7C7;
+}
+.btn {
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-family: Arial;
+    color: #EAC7C7;
+    font-size: 20px;
+    background: #88bacf;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #579BB1;
+    text-decoration: none;
+}
+
+.contact-me {
+    margin: auto auto 50px auto;
+    line-height: 2;
+    width: 70%;
+    letter-spacing: 2px;
+    font-size: large;
 }
